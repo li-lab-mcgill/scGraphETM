@@ -117,8 +117,10 @@ data/
 ```
 
 ### Available Datasets
-- PBMC (Peripheral Blood Mononuclear Cells)
-- BMMC (Bone Marrow Mononuclear Cells)
-- Cerebral Cortex
+- PBMC (Peripheral Blood Mononuclear Cells) [10X Genomics](https://support.10xgenomics.com/single-cell-multiome-atac-gex/datasets/1.0.0/pbmc\_granulocyte\_sorted\_10k?)
+- BMMC (Bone Marrow Mononuclear Cells) [GSE194122](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122) [GSE204684](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE204684)
+- Cerebral Cortex [GSE204684](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE204684)
+- [CisTarget](https://resources.aertslab.org/cistarget/)
+- [Chip-Seq Atlas](https://chip-atlas.org/)
 
 Each dataset should have matching cells between RNA-seq and ATAC-seq modalities.
