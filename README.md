@@ -13,8 +13,8 @@ The model uniquely incorporates the xTrimoGene approach for generating cell-spec
 ### Environment Setup
 ```bash
 # Create conda environment
-conda create -n scmulti python=3.8
-conda activate scmulti
+conda create -n scgraph python=3.10
+conda activate scgraph
 
 # Install PyTorch and PyTorch Geometric
 conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -50,7 +50,6 @@ project/
 python train.py \
     --date 2025-02-05 \
     --use_gnn \
-    --use_xtrimo \
     --model_name base_model
 ```
 
